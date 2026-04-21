@@ -12,7 +12,7 @@ ADMIN_ID = 1269988382
 DATA_FILE = "files.json"
 lock = threading.Lock()
 
-# 🔹 تحميل البيانات
+#   تحميل البيانات
 def load_data():
     if not os.path.exists(DATA_FILE):
         return {
@@ -28,7 +28,7 @@ def load_data():
     with open(DATA_FILE, "r", encoding="utf-8") as f:
         return json.load(f)
 
-# 🔹 حفظ البيانات
+#   حفظ البيانات
 def save_data(data):
     with lock:
         with open(DATA_FILE, "w", encoding="utf-8") as f:
@@ -37,7 +37,7 @@ def save_data(data):
 files_db = load_data()
 user_state = {}
 
-# 🔹 /start
+#   /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     keyboard = [
         [InlineKeyboardButton("📘 computer programming", callback_data="computer")],
@@ -57,7 +57,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         reply_markup=InlineKeyboardMarkup(keyboard)
     )
 
-# 🔹 الأزرار
+#   الأزرار
 async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
@@ -83,7 +83,7 @@ async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
             caption=caption
         )
 
-# 🔹 اختيار المادة
+#   اختيار المادة
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
 
@@ -100,7 +100,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         user_state[user_id] = subject
         await update.message.reply_text(f"ارسل الملف الآن لمادة {subject}")
 
-# 🔹 رفع الملفات
+#   رفع الملفات
 async def handle_file(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
 
@@ -128,7 +128,7 @@ async def handle_file(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     await update.message.reply_text("تم الحفظ بشكل مرتب ودائم ✅")
 
-# 🔹 حذف ملف
+#   حذف ملف
 async def remove_file(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if update.effective_user.id != ADMIN_ID:
         return
@@ -152,9 +152,10 @@ async def remove_file(update: Update, context: ContextTypes.DEFAULT_TYPE):
     else:
         await update.message.reply_text("غير موجود")
 
-# 🔹 تشغيل البوت
-app = ApplicationBuilder().token(TOKEN).build()
+#   تشغيل البوت
+TOKEN = "8564735048:AAGnMiT8toyP08zGgvO8a-dKJkLNE3ggQA8"
 
+app = ApplicationBuilder().token(TOKEN).build()
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("remove", remove_file))
 app.add_handler(CallbackQueryHandler(button))
