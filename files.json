@@ -1,0 +1,139 @@
+{
+    "computer": [
+        {
+            "file_id": "BQACAgIAAxkBAAMRaeIhXmK6UALSm5vFCduEyhYMIwsAAlqXAAJlevlKKEa5d_dZHuY7BA",
+            "file_name": "lec1.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAMSaeIhXqE8mjW7dWy_c1K8Rgyw8OYAAlyXAAJlevlKImJPivDobww7BA",
+            "file_name": "lec_2.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAMTaeIhXj8ZRtsvxe7uULdbsWtZiVUAAl2XAAJlevlKQjnRj7emaXE7BA",
+            "file_name": "c++"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAMUaeIhXhFpSSOyH7UG6MnkeptA4gYAAl6XAAJlevlKzDUvAAFQFcfHOwQ",
+            "file_name": "lec_3.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAMVaeIhXqHPIhYMVyuJrghcPkwCLVMAAmWXAAJlevlKZdmQKbM0uko7BA",
+            "file_name": "lec_4"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAMmaeIhz__8gchPjepuTVOs28rk_gIAAkiaAAPYEEsVUOJf8KCCWzsE",
+            "file_name": "LAB_Experiment_1.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAMJaeIhDhXgf5mK_aRcuE2adsxLCk8AAtiVAAKGkfhKYzFWsmcy_bg7BA",
+            "file_name": "COMPUTER_PROGRAMMING_LAB_Experiment_2.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAMraeIiLnCux0GTOdXw5fMRAmKGjSUAAk-aAAPYEEvC4Vpa_QwBlDsE",
+            "file_name": "LAB_Experiment_4.pdf"
+        }
+    ],
+    "math": [
+        {
+            "file_id": "BQACAgIAAxkBAAIBLmnjVKAdRHRKmQABxhtgf8nfzYlR7AACTJgAA9gYS_deVSwI57CYOwQ",
+            "file_name": "math.pdf",
+            "uploader": "Mousa ammar",
+            "user_id": 1269988382,
+            "date": "2026-04-18 12:53"
+        }
+    ],
+    "arabic": [
+        {
+            "file_id": "BQACAgIAAxkBAAOwaeNQoznbVZ_lKcZdZfPKwN7kQyEAAqafAAIejelKwDSr1xoZnPA7BA",
+            "file_name": "العدد للعربي.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAOxaeNQo3jN7MekKYbjigGtNSWaApMAAtCVAAIBPhBKcr-deZmStX07BA",
+            "file_name": "lec_3.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAOyaeNQo2N8xiLAREwmzk1GTvHwSjcAAlahAAJmDFBK2FLsF29zwgw7BA",
+            "file_name": "lec_4"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAOzaeNQo36gGeCXcen2rEiuBa5g2VMAAoyQAALLAAGpShnInk25xGmbOwQ",
+            "file_name": "lec5.pdf"
+        }
+    ],
+    "english": [
+        {
+            "file_id": "BQACAgIAAxkBAAPkaeNRnraLSGbqkxrcRFJJmhUY8bMAAhGbAAL9rIBJPhBjHjvd9NQ7BA",
+            "file_name": "ENGLISH LECTURES.pdf"
+        }
+    ],
+    "circuit": [
+        {
+            "file_id": "BQACAgIAAxkBAAPTaeNRf9AcK_RPM_BLQIkiS0q9UykAAomSAAIGbtFK81Xhk5jlF1Y7BA",
+            "file_name": "دوائر م 1.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAPUaeNRf4DzxeuV8HrO8k9qfR8LtPEAAoqSAAIGbtFKnrSEDmu5zsY7BA",
+            "file_name": "دوائر 2.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAPVaeNRf6nmPAqOj1fvatsg_nysOYIAAouSAAIGbtFKEtVFbfisfvM7BA",
+            "file_name": "دوائر 3.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAPWaeNRf9LXnyvH2yP7QvX-m1XmP8UAAoySAAIGbtFKp07gYaYV3587BA",
+            "file_name": "دوائر 4.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAPXaeNRf4lSK0Z0-um1orDfzQABzID_AAKNkgACBm7RSj136jkCch5aOwQ",
+            "file_name": "دوائر 5.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAPYaeNRf9eQJeZJAAGDk0odvTiLgisIAAKKjwACyPTYSnrsPIvF9B1qOwQ",
+            "file_name": "دوائر 6.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAIBAWnjUh-GP6UzFKMryVbRclgxNXOIAAJPogACwknpSl8s6LzsH6kCOwQ",
+            "file_name": "Experiment No1.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAIBAmnjUh93wUho-VvLJ6S819JafRn8AAJRogACwknpSvpS-ZzEWcjpOwQ",
+            "file_name": "Experiment No2.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAIBA2njUh_KVD5pSbcbcEqoFfnLqkyEAAJSogACwknpSnKp9eA_6kTeOwQ",
+            "file_name": "Experiment No3.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAIBBGnjUh_nSIo-qYXvUuYa58IFaGmeAAJUogACwknpSmcVS9bh90_jOwQ",
+            "file_name": "Experiment No4.pdf"
+        }
+    ],
+    "security": [
+        {
+            "file_id": "BQACAgIAAxkBAAP6aeNR_Sp2TSWv_OLFGyyn-ocvV7wAAt2dAAKVE2FK1u32jaqLP207BA",
+            "file_name": "Ch1.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAP7aeNR_WLkWujzVOp0WA_6xtDxlVsAAuGdAAKVE2FKWa2TOO5M0dQ7BA",
+            "file_name": "Ch2.pdf"
+        }
+    ],
+    "network": [
+        {
+            "file_id": "BQACAgIAAxkBAAPraeNRz2RckTYZ3IH-Fz4GgJ775YoAAqWSAAL5cEhKgiabXKNDw9w7BA",
+            "file_name": "Lecture 2 - Networks type and scope.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAPsaeNRz_K-yiS79nJIHDK37AaYtekAAqaSAAL5cEhKOvyqf2oE7Ak7BA",
+            "file_name": "Lecture 3 - Network Architectures and Models.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAPtaeNRz9Yrscifl4Zc0UhmVk38p6EAAvWSAAIIBOBKZjRpLAer9rw7BA",
+            "file_name": "Lecture_5_Networking_Standards_and_Models.pdf"
+        },
+        {
+            "file_id": "BQACAgIAAxkBAAPuaeNRz9bmviwTcHIL8_xAnENn6jgAAgeYAAKGkfhKMeeIu2HfQr87BA",
+            "file_name": "Lecture_4_Fundamentals_of_Data_Communication.pdf"
+        }
+    ]
+}
